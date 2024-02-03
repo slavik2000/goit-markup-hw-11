@@ -1058,7 +1058,7 @@ parcelHelpers.export(exports, "fetchPhoto", ()=>fetchPhoto);
 var _axios = require("axios");
 var _axiosDefault = parcelHelpers.interopDefault(_axios);
 const URL = "https://pixabay.com/api/";
-const KEY = "37440122-e5d5a2493910548fa520b3add";
+const KEY = "42192566-3aa66b6addb563a411dc58658";
 async function fetchPhoto(q, page, perPage) {
     const url = `${URL}?key=${KEY}&q=${q}&page=${page}&per_page=${perPage}&image_type=photo&orientation=horizontal&safesearch=true`;
     const response = await (0, _axiosDefault.default).get(url);
